@@ -3,8 +3,11 @@ import multiplateFormImg from 'img/multiplate-form.png';
 
 function MultiplateForm() {
 	return (
-		<div className="img-block">
-			<img src={multiplateFormImg} alt="React" className="img-full" />
+		<div>
+			<div className="centered">PSG : Poc Survey Generator</div>
+			<div className="img-block">
+				<img src={multiplateFormImg} alt="React" className="img-full" />
+			</div>
 		</div>
 	);
 }

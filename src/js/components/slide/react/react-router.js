@@ -15,7 +15,7 @@ function ReactRouter() {
 			<div>Côté utilisateur</div>
 			<br />
 			<ul className="centered">
-				<li>Accéder directement à une ressource</li>
+				<li>Faciliter la navigation</li>
 			</ul>
 		</div>
 	);

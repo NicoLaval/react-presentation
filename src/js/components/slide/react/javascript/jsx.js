@@ -7,7 +7,10 @@ import PropTypes from 'prop-types';
 import DisplayCode from 'js/components/display-code';
 
 function Name({ name }) {
-	return <div>{name}</div>
+	return <div className="myClass">{name}</div>
+	// compile in :
+	// React.createElement('div', {className: 'myClass'}, name)
+)
 }
 
 Name.propTypes = {

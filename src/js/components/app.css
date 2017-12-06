@@ -81,3 +81,8 @@
 .pull-right {
 	text-align: right;
 }
+
+.pink {
+	background-color: #ee3467;
+	color: #ee3467;
+}

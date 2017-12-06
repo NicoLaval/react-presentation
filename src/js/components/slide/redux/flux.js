@@ -17,6 +17,7 @@ function Flux() {
 			<div className="mui-row">
 				<ul className="mui-col-md-10 mui-col-md-offset-1 centered">
 					<li>{"Mutualisation d'information"}</li>
+					<li>{"Connaissance de l'état de l'application à tout instant"}</li>
 					<li>{'Forte réduction du nombre de requêtes HTTP'}</li>
 				</ul>
 			</div>

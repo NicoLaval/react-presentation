@@ -1,4 +1,5 @@
 import Home from './home';
+import Theme from './theme';
 import ReactIntro from './react/intro';
 import ReactInsee from './react/insee';
 import Javascript from './react/javascript';
@@ -14,6 +15,7 @@ import DevTools from './react/dev-tools';
 import Generic from './react/generic';
 import Fetch from './react/fetch';
 import FetchContainer from './react/container';
+import FetchExample from './react/fetch-example';
 import ReactFlux from './redux/react-flux';
 import FluxWorkflow from './redux/flux-workflow';
 import Flux from './redux/flux';
@@ -26,6 +28,7 @@ import Conclusion from './conclusion';
 
 export {
 	Home,
+	Theme,
 	ReactIntro,
 	ReactInsee,
 	Javascript,
@@ -41,6 +44,7 @@ export {
 	Generic,
 	Fetch,
 	FetchContainer,
+	FetchExample,
 	ReactFlux,
 	FluxWorkflow,
 	Flux,

@@ -3,7 +3,12 @@ import * as S from 'js/components/slide';
 
 export const items = [
 	{ route: '/', title: 'Home', body: <S.Home /> },
-	{ route: '/react', title: 'React', type: 'SubHeader' },
+	{
+		route: '/theme',
+		title: "Comment justifier l'injustifiable ?",
+		body: <S.Theme />,
+	},
+	{ route: '', title: 'React', type: 'SubHeader' },
 	{
 		route: '/react-intro',
 		title: "Qu'est-ce que React ?",
@@ -78,6 +83,11 @@ export const items = [
 		route: '/react-fetch-container',
 		title: "React et les data : le ' Container '",
 		body: <S.FetchContainer />,
+	},
+	{
+		route: '/react-fetch-example',
+		title: "React et les data : l'exemple",
+		body: <S.FetchExample />,
 	},
 	{ route: '', title: 'Redux', type: 'SubHeader' },
 	{

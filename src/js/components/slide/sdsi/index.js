@@ -5,7 +5,7 @@ function Sdsi() {
 	return (
 		<div>
 			<div className="mui-col-md-12 centered">
-				Le SGI se serait-il inspiré de React ... ou inversement ?
+				Le SGI se serait-il inspiré de React ... ou inversement ? :)
 			</div>
 			<br />
 			<br />
