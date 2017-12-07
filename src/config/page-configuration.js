@@ -64,11 +64,11 @@ export const items = [
 		title: 'Single page application, really ?',
 		body: <S.ReactRouter />,
 	},
-	// {
-	// 	route: '/react-dev-tools',
-	// 	title: 'React Dev Tools => Easy life ! ?',
-	// 	body: <S.DevTools />,
-	// },
+	{
+		route: '/react-dev-tools',
+		title: 'React Dev Tools => Easy life ! ?',
+		body: <S.DevTools />,
+	},
 	{
 		route: '/react-generic',
 		title: 'React & la généricité',
