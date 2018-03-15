@@ -39,4 +39,10 @@ export const toArabic = a => {
 	return res;
 };
 
-export const sumRomans = (a, b) => toRoman(toArabic(a) + toArabic(b));
+const romanRegEx = /^(?:M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})|\d+)$/;
+export const isRomanNumberValid = n => romanRegEx.test(n);
+
+export const sumRomans = (a, b) =>
+	isRomanNumberValid(a) && isRomanNumberValid(b)
+		? toRoman(toArabic(a) + toArabic(b))
+		: 'Invalid input';

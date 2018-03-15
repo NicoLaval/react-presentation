@@ -1,6 +1,18 @@
-import { toArabic, toRoman } from './roman-calculator';
+import { isRomanNumberValid, toArabic, toRoman } from './roman-calculator';
 
-describe('sum roman numbers', () => {
+describe('check if roman number is valid', () => {
+	it('IIII returns false', () => {
+		expect(isRomanNumberValid('IIII')).toBeFalsy();
+	});
+	it('XM returns false', () => {
+		expect(isRomanNumberValid('XM')).toBeFalsy();
+	});
+	it('MX returns true', () => {
+		expect(isRomanNumberValid('MX')).toBeTruthy();
+	});
+});
+
+describe('convert arabic numbers to roman numbers', () => {
 	it('I returns 1', () => {
 		expect(toArabic('I')).toBe(1);
 	});
@@ -12,7 +24,10 @@ describe('sum roman numbers', () => {
 	});
 });
 
-describe('convert arabic number to roman number', () => {
+describe('convert arabics number to roman numbers', () => {
+	it('4 returns IV', () => {
+		expect(toRoman(4)).toBe('IV');
+	});
 	it('999 returns M', () => {
 		expect(toRoman(999)).toBe('CMXCIX');
 	});
