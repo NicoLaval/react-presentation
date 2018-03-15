@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextField } from 'material-ui';
 
-function Input({ id, label, value, onChange, required, disabled, col }) {
+function Input({ id, label, value, onChange, required, error, disabled, col }) {
 	const inputStyle = {
 		color: 'black',
 		textAlign: 'center',
@@ -10,7 +10,8 @@ function Input({ id, label, value, onChange, required, disabled, col }) {
 		width: '50%',
 	};
 
-	const errorText = value || !required ? '' : 'This field is required';
+	const requiredText = value || !required ? '' : 'This field is required';
+	const errorText = error ? 'Error' : '';
 
 	return (
 		<div className={`mui-col-md-${col} centered`}>
@@ -26,7 +27,7 @@ function Input({ id, label, value, onChange, required, disabled, col }) {
 					value={value}
 					onChange={e => onChange(e.target.value)}
 					disabled={disabled}
-					errorText={errorText}
+					errorText={requiredText || errorText}
 				/>
 			</div>
 		</div>
