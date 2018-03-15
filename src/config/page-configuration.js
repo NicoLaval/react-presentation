@@ -25,6 +25,11 @@ export const items = [
 		body: <S.Javascript />,
 	},
 	{
+		route: '/react-js-coding-2',
+		title: 'ES 6 example #2 : Roman calculator',
+		body: <S.RomanCalculator />,
+	},
+	{
 		route: '/react-component-state',
 		title: "' State ' d'un composant",
 		body: <S.State />,
