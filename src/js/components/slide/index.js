@@ -3,6 +3,7 @@ import Theme from './theme';
 import ReactIntro from './react/intro';
 import ReactInsee from './react/insee';
 import Javascript from './react/javascript';
+import Bowling from './react/javascript/example/bowling';
 import RomanCalculator from './react/javascript/example/roman-calculator';
 import State from './react/state';
 import Props from './react/props';
@@ -34,6 +35,7 @@ export {
 	ReactInsee,
 	Javascript,
 	RomanCalculator,
+	Bowling,
 	State,
 	Props,
 	StatelessComponent,

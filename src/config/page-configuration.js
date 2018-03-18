@@ -25,6 +25,11 @@ export const items = [
 		body: <S.Javascript />,
 	},
 	{
+		route: '/react-js-coding-1',
+		title: 'ES 6 example #1 : Bowling score calculator',
+		body: <S.Bowling />,
+	},
+	{
 		route: '/react-js-coding-2',
 		title: 'ES 6 example #2 : Roman calculator',
 		body: <S.RomanCalculator />,
