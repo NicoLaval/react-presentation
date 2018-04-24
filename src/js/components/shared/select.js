@@ -43,6 +43,7 @@ function Select({
 					style={style}
 					labelStyle={labelStyle}
 					errorText={errorText}
+					disabled={disabled}
 				>
 					{data}
 				</SelectField>
