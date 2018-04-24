@@ -5,6 +5,7 @@ import ReactInsee from './react/insee';
 import Javascript from './react/javascript';
 import Bowling from './react/javascript/example/bowling';
 import RomanCalculator from './react/javascript/example/roman-calculator';
+import Mastermind from './react/javascript/example/mastermind';
 import State from './react/state';
 import Props from './react/props';
 import StatelessComponent from './react/stateless-component';
@@ -36,6 +37,7 @@ export {
 	Javascript,
 	RomanCalculator,
 	Bowling,
+	Mastermind,
 	State,
 	Props,
 	StatelessComponent,

@@ -35,6 +35,11 @@ export const items = [
 		body: <S.RomanCalculator />,
 	},
 	{
+		route: '/react-js-coding-3',
+		title: 'ES 6 example #3 : Mastermind',
+		body: <S.Mastermind />,
+	},
+	{
 		route: '/react-component-state',
 		title: "' State ' d'un composant",
 		body: <S.State />,
