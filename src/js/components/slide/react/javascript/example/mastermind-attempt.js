@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Select from 'js/components/shared/select';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import ResBtn from 'material-ui/svg-icons/action/touch-app';
-import { colors, isInputValid, getScore } from 'js/utils/mastermind/mastermind';
+import { colors, getScore } from 'js/utils/mastermind/mastermind';
 
 class MastermindAttempt extends Component {
 	constructor(props) {
