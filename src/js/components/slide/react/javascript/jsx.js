@@ -6,12 +6,10 @@ function Jsx() {
 import PropTypes from 'prop-types';
 import DisplayCode from 'js/components/display-code';
 
-function Name({ name }) {
-	return <div className="myClass">{name}</div>
+const Name = name => <div className="myClass">{name}</div>
 	// compile in :
 	// React.createElement('div', {className: 'myClass'}, name)
-)
-}
+
 
 Name.propTypes = {
 	name: PropTypes.string.isRequired,

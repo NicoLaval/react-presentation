@@ -5,7 +5,7 @@ function ImportExport() {
 	const exportCode = `export const count = 2`;
 	const importCode = `import { count } from '../counter'
 const b = () => count + 1
-console.log(b)  // 3`;
+console.log(b())  // 3`;
 	return (
 		<div className="mui-col-md-12">
 			<label>Module 'counter'</label>
