@@ -10,9 +10,10 @@ class Bowling extends Component {
 		super();
 		this.state = { numbers: Array(2).fill('') };
 		this.handleChange = (e, index) => {
-			const { numbers } = this.state;
-			numbers[index] = e.toUpperCase();
-			this.setState({ numbers });
+			if(e.match(/^[a-zA-Z]*$/)) {
+				const { numbers } = this.state;
+				numbers[index] = e.toUpperCase();
+				this.setState({ numbers });}
 		};
 	}
 	render() {
